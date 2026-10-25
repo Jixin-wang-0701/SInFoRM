@@ -1,0 +1,29 @@
+{
+  "model_and_magma_global_universe_n": 95750,
+  "model_and_magma_global_top2_n": 1915,
+  "lead_sqtl_global_universe_n": 9685,
+  "lead_sqtl_global_top2_n": 194,
+  "model_selection": "global top 2% of full-junction refit GO + expression + rebuilt Pfam absolute score",
+  "magma_selection": "global top 2% MAGMA ZSTAT on same 95,750 junctions",
+  "lead_selection": "global top 2% |beta| of minimum nominal-P GTEx lead pair over scoreable junctions with lead beta",
+  "posterior_rules": [
+    ">0.9",
+    ">0.8"
+  ],
+  "endpoints": {
+    "ICGC_COPD_LTRC": {
+      "all_posterior_evaluable_n": 2207,
+      "common_with_lead_beta_n": 525,
+      "magma_top2_posterior_evaluable_n": 238,
+      "at_exact_0p8": 0,
+      "at_exact_0p9": 0
+    },
+    "FEV1FVC_GTEx": {
+      "all_posterior_evaluable_n": 27702,
+      "common_with_lead_beta_n": 4426,
+      "magma_top2_posterior_evaluable_n": 776,
+      "at_exact_0p8": 0,
+      "at_exact_0p9": 0
+    }
+  }
+}

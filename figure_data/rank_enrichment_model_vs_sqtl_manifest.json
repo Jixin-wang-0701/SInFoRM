@@ -1,0 +1,16 @@
+{
+  "ranking_population": "same posterior-, model-, and GTEx-sQTL-evaluable junctions per endpoint",
+  "model_score": "full-data GO + expression + rebuilt Pfam absolute score",
+  "primary_sqtl_score": "absolute beta of minimum-nominal-P GTEx lead pair",
+  "posterior_primary": ">0.9",
+  "test": "paired one-sided sign flip of positive-junction rank-percentile advantage at regional-block level",
+  "interval": "20000-resample positive-block bootstrap 95% percentile interval",
+  "primary_multiplicity": "Holm adjustment across two endpoints",
+  "sensitivity": [
+    "posterior >0.8",
+    "max absolute sQTL slope",
+    "minimum nominal sQTL P",
+    "fixed-alpha LOCO model score"
+  ],
+  "seed": 171024
+}

@@ -1,0 +1,9 @@
+endpoint,posterior_threshold,panel,universe_n,model_selected_n,model_positive_n,sqtl_selected_n,sqtl_positive_n,selection_overlap_n,other_magma_n,other_magma_positive_n,event_or,event_or_ci_low,event_or_ci_high,event_p_one_sided,region_selected_n,region_selected_hits,region_other_n,region_other_hits,region_or,region_p_one_sided,gene_selected_n,gene_selected_hits,gene_other_n,gene_other_hits,gene_or,gene_p_one_sided
+ICGC_COPD_LTRC,0.8,A_B_global_model_vs_lead,525,40,3,3.0,0.0,0.0,,,,,,,,,,,,,,,,,,
+ICGC_COPD_LTRC,0.8,C_D_within_MAGMA_global_top2,238,81,9,,,,157.0,12.0,1.5104166666666667,0.5345031091987448,4.106366321939011,0.25342931529456547,6.0,2.0,9.0,3.0,1.0,0.7062937062937067,19.0,3.0,57.0,7.0,1.3392857142857142,0.4796602815985088
+ICGC_COPD_LTRC,0.9,A_B_global_model_vs_lead,525,40,3,3.0,0.0,0.0,,,,,,,,,,,,,,,,,,
+ICGC_COPD_LTRC,0.9,C_D_within_MAGMA_global_top2,238,81,9,,,,157.0,4.0,4.78125,1.2731402000182908,21.80895472526577,0.008518401371216454,6.0,2.0,9.0,1.0,4.0,0.34065934065934145,19.0,3.0,57.0,3.0,3.375,0.16114323855014928
+FEV1FVC_GTEx,0.8,A_B_global_model_vs_lead,4426,125,3,62.0,0.0,1.0,,,,,,,,,,,,,,,,,,
+FEV1FVC_GTEx,0.8,C_D_within_MAGMA_global_top2,776,142,11,,,,634.0,26.0,1.9635936582501468,0.8523869634174832,4.2332496213726545,0.05778365097533318,16.0,3.0,79.0,5.0,3.4153846153846152,0.12938252596804944,32.0,3.0,263.0,14.0,1.8399014778325122,0.27608417135474334
+FEV1FVC_GTEx,0.9,A_B_global_model_vs_lead,4426,125,3,62.0,0.0,1.0,,,,,,,,,,,,,,,,,,
+FEV1FVC_GTEx,0.9,C_D_within_MAGMA_global_top2,776,142,9,,,,634.0,20.0,2.0774436090225565,0.8130829587204055,4.896208610268109,0.06513274047464127,16.0,2.0,79.0,4.0,2.6785714285714284,0.2652661315190123,32.0,2.0,263.0,9.0,1.8814814814814815,0.3393083774809626
