@@ -1,0 +1,27 @@
+{
+  "rows": 95750,
+  "full_fit_max_abs_difference_vs_existing_score": 9.974659986866641e-17,
+  "full_fit_score_reference": "outputs/pfam_rebuild_npnt/scores_comparison.csv",
+  "loco_max_abs_difference_vs_existing_score": 9.999054535747565e-17,
+  "matrix_shapes": {
+    "expression": [
+      95750,
+      17
+    ],
+    "go": [
+      95750,
+      15716
+    ],
+    "pfam": [
+      95750,
+      5450
+    ]
+  },
+  "matrix_nnz": {
+    "expression": 183456,
+    "go": 1618813,
+    "pfam": 75158
+  },
+  "score_definition": "abs(expression_component + go_component + pfam_component)",
+  "component_definition": "raw sparse feature matrix dot fitted standardized-model coefficients, no intercept"
+}
