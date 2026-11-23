@@ -1,6 +1,6 @@
 # model and analysis
 
-This folder contains the data, model coefficients, per-junction scores, figure, and analysis scripts for the six-panel figure. `manuscript_text.md` contains a short English legend, Results paragraph, and reviewer response.
+This folder contains the data, model coefficients, per-junction scores, figure, and analysis scripts for the six-panel figure.
 
 ## Folder contents
 
